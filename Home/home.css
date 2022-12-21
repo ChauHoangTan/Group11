@@ -1,0 +1,63 @@
+:root {
+    --blue: #0569d7;
+    --white: #ffffff;
+    --black: #001427;
+    --orange: #ff6700;
+    --body-text: #333333;
+    --footer-text: #C0BEBE;
+    --star: #b8882e;
+    --body-bg: #ececf4;
+    --section-bg: #292c61;
+    --section-bg2: #87815f;
+}
+
+
+
+.bg-dark {
+    background-color: var(--section-bg) !important;
+}
+
+.btn-navItem {
+    background-color: var(--orange) !important;
+    color: var(--white);
+    font-weight: 500;
+    transition: transform .2s;
+}
+
+.btn-navItem:hover {
+    transform: scale(1.1);
+    background-color: var(--orange) !important;
+}
+
+.img-border {
+    border-radius: 20px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.product-item {
+    transition: transform .2s;
+}
+
+.product-item:hover {
+    transform: scale(1.04);
+}
+
+.checked {
+    color: var(--star);
+}
+
+.body-text {
+    color: var(--body-text);
+    text-decoration: none;
+}
+
+.section-bg {
+    background-color: var(--section-bg);
+}
+
+.section-bg2 {
+    background-color: var(--section-bg2);
+}
